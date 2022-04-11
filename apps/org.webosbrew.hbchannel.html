@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Homebrew Channel | webOS Homebrew Project</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="generator" content="Pelican" />
+<link href="../theme/styles/main.css@04bfa1c2.css" type="text/css" rel="stylesheet">
+<link href="../theme/styles/app.css@df89f800.css" type="text/css" rel="stylesheet">
+</head>
+<body id="index" class="home">
+<header>
+<div class="logo">
+<a href="../index.html"><img src="../theme/images/icon80.png" width="40px" height="40px" alt="webOS Homebrew logo"></a>
+</div>
+<nav id="menu">
+<ul>
+<li><a href="../apps.html">Applications</a></li>
+<li><a href="../submit.html">Submit</a></li>
+</ul>
+</nav>
+</header>
+<div id="content">
+<div class="main">
+<img src="https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png" class="app-icon" alt=" Icon" />
+<h1 class="app-title">Homebrew Channel</h1>
+<p class="app-version">Version 0.5.0</p>
+<div class="app-info">
+<p>Source: <a href="https://github.com/webosbrew/webos-homebrew-channel" target="_blank">https://github.com/webosbrew/webos-homebrew-channel</a></p>
+<div class="app-actions">
+<a href="https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.5.0/org.webosbrew.hbchannel_0.5.0_all.ipk" target="_blank">
+<div class="app-action download-ipk">
+<div class="title">Download IPK</div>
+<div class="version">0.5.0</div>
+<div class="size">1.4 MB</div>
+</div>
+</a>
+</div>
+</div>
+<hr>
+<h2 id="features">Features<a class="headerlink" href="org.webosbrew.hbchannel.html#features" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>Independent webOS package repository</p>
+<ul>
+<li>Homebrew discovery, installation &amp; updates</li>
+</ul>
+</li>
+<li>
+<p>(root) Root execution service that can be easily used by webOS homebrew
+developers without a need of separate privilege escalation handling (<code>luna://org.webosbrew.hbchannel.service/exec</code>)</p>
+</li>
+<li>(root) Disable some telemetry</li>
+<li>(root) Startup user hooks (executable scripts present in <code>/var/lib/webosbrew/init.d</code> are run on bootup)</li>
+<li>(root) Remote access<ul>
+<li>SSH - public key authenticated (with default <code>alpine</code> password until
+authorized keys are provisioned)</li>
+<li>Telnet - unauthenticated, use sparingly</li>
+</ul>
+</li>
+<li>(root) Failsafe mode<ul>
+<li>In case a device crashes on boot only an emergency shell will be exposed
+via telnet. In order to disable it fix the original crash cause and remove
+<code>/var/luna/preferences/webosbrew_failsafe</code> flag file.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>Last Updated: 2022/03/03 17:55:48 UTC</p>
+</div>
+<div class="side">
+<h3>Links</h3>
+<ul class="links">
+<li><a href="https://github.com/webosbrew/">Github Organization</a></li>
+<li><a href="https://discord.gg/xWqRVEm">Join us on Discord</a></li>
+<li><a href="https://rootmy.tv/">RootMy.TV</a></li>
+<li><a href="https://openlgtv.github.io/">openlgtv</a></li>
+</ul>
+</div>
+</div>
+<hr>
+<footer id="contentinfo" class="body">
+<div class="copyright">&copy; 2022 webOS Homebrew Project</div>
+<div class="powered-by">Powered by <a href="https://getpelican.com/">Pelican</a></div>
+</footer></body>
+</html>
