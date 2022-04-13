@@ -1,0 +1,272 @@
+{
+  "paging": {
+    "page": 1,
+    "count": 11,
+    "maxPage": 1,
+    "itemsTotal": 11
+  },
+  "packages": [
+    {
+      "id": "webosapp.tools",
+      "title": "Webosapp.tools",
+      "iconUri": "https://www.miraclegroup.com/wp-content/uploads/2018/01/Tailoring-ICO-Platform-130x130.png",
+      "manifestUrl": "https://github.com/in1975/in1975.github.io/releases/download/test/webosapp.tools.manifest.json",
+      "manifest": {
+        "id": "webosapp.tools",
+        "version": "0.0.1",
+        "type": "web",
+        "title": "webosapp.tools",
+        "appDescription": "webosapp.tools",
+        "iconUri": "https://www.miraclegroup.com/wp-content/uploads/2018/01/Tailoring-ICO-Platform-130x130.png",
+        "sourceUrl": "https://in1975.github.io",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/in1975/in1975.github.io/releases/download/test/webosapp.tools_0.0.1_all.ipk",
+        "ipkHash": {
+          "sha256": "8d496ad4e8cb1b3fca895ef0ed61a65908211f11aa4813efb4fad508a5b67475"
+        },
+        "ipkSize": 15524
+      },
+      "pool": "main",
+      "shortDescription": "Test",
+      "fullDescriptionUrl": "apps/webos.tools.html"
+    },
+    {
+      "id": "org.chocolate-doom.demo",
+      "title": "Chocolate Doom Demo",
+      "iconUri": "https://raw.githubusercontent.com/webosbrew/chocolate-doom/webos-tv/data/doom.png",
+      "manifestUrl": "https://github.com/webosbrew/chocolate-doom/releases/download/webos-demo-0.0.1/org.chocolate-doom.demo.manifest.json",
+      "manifest": {
+        "id": "org.chocolate-doom.demo",
+        "version": "0.0.1",
+        "type": "native",
+        "title": "Chocolate Doom Demo",
+        "appDescription": "Technical Demo for Chocolate Doom",
+        "iconUri": "https://raw.githubusercontent.com/webosbrew/chocolate-doom/webos-tv/data/doom.png",
+        "sourceUrl": "https://github.com/webosbrew/chocolate-doom",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/webosbrew/chocolate-doom/releases/download/webos-demo-0.0.1/org.chocolate-doom.demo_0.0.1_arm.ipk",
+        "ipkHash": {
+          "sha256": "564e08ed8b3d57b4e628482c4b8a6aac9de30bfdd820a4c6f844a9a84c6aef8a"
+        },
+        "ipkSize": 3218138
+      },
+      "pool": "main",
+      "shortDescription": "Technical Demo for Chocolate Doom",
+      "fullDescriptionUrl": "apps/org.chocolate-doom.demo-full_description.html"
+    },
+    {
+      "id": "com.crunchyroll.webos",
+      "title": "Crunchyroll",
+      "iconUri": "https://raw.githubusercontent.com/mateussouzaweb/crunchyroll-webos/master/src/img/130px.png",
+      "manifestUrl": "https://github.com/mateussouzaweb/crunchyroll-webos/releases/download/v1.8.0/webosbrew.manifest.json",
+      "manifest": {
+        "id": "com.crunchyroll.webos",
+        "version": "1.8.0",
+        "type": "web",
+        "title": "Crunchyroll",
+        "iconUri": "https://raw.githubusercontent.com/mateussouzaweb/crunchyroll-webos/master/src/images/80px.png",
+        "sourceUrl": "https://github.com/mateussouzaweb/crunchyroll-webos",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/mateussouzaweb/crunchyroll-webos/releases/download/v1.8.0/com.crunchyroll.webos_1.8.0_all.ipk",
+        "ipkHash": {
+          "sha256": "55fc84ef8a2c56584b10c6edd6c806427511d604362d047339d3afa19d188edc"
+        },
+        "ipkSize": 1035152
+      },
+      "pool": "main",
+      "shortDescription": null,
+      "fullDescriptionUrl": "apps/com.crunchyroll.webos-full_description.html"
+    },
+    {
+      "id": "org.webosbrew.custom-screensaver",
+      "title": "Custom Screensaver",
+      "iconUri": "https://raw.githubusercontent.com/webosbrew/custom-screensaver/main/assets/icon130.png",
+      "manifestUrl": "https://github.com/webosbrew/custom-screensaver/releases/download/v1.0.1/org.webosbrew.custom-screensaver.manifest.json",
+      "manifest": {
+        "id": "org.webosbrew.custom-screensaver",
+        "version": "1.0.1",
+        "type": "web",
+        "title": "Custom Screensaver",
+        "appDescription": "The last custom webOS Screensaver you will ever need",
+        "iconUri": "https://raw.githubusercontent.com/webosbrew/custom-screensaver/main/assets/icon160.png",
+        "sourceUrl": "https://github.com/webosbrew/custom-screensaver",
+        "rootRequired": true,
+        "ipkUrl": "https://github.com/webosbrew/custom-screensaver/releases/download/v1.0.1/org.webosbrew.custom-screensaver_1.0.1_all.ipk",
+        "ipkHash": {
+          "sha256": "436f1ccc5a3976ae3cd85ca4a8e4fc6156c309b59e53563ff906c629728fdbca"
+        },
+        "ipkSize": 780292
+      },
+      "pool": "main",
+      "shortDescription": "The last custom webOS Screensaver you will ever need",
+      "fullDescriptionUrl": "apps/org.webosbrew.custom-screensaver-full_description.html"
+    },
+    {
+      "id": "org.webosbrew.hbchannel",
+      "title": "Homebrew Channel",
+      "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
+      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.5.0/org.webosbrew.hbchannel.manifest.json",
+      "manifest": {
+        "id": "org.webosbrew.hbchannel",
+        "version": "0.5.0",
+        "type": "web",
+        "title": "Homebrew Channel",
+        "appDescription": "webOS Homebrew installer",
+        "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
+        "sourceUrl": "https://github.com/webosbrew/webos-homebrew-channel",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.5.0/org.webosbrew.hbchannel_0.5.0_all.ipk",
+        "ipkHash": {
+          "sha256": "daec5b88684c66387a7822e5492a4ef5075b64ad0a5619854d90f95e048e2715"
+        },
+        "ipkSize": 1436054
+      },
+      "pool": "main",
+      "shortDescription": "webOS Homebrew installer",
+      "fullDescriptionUrl": "apps/org.webosbrew.hbchannel-full_description.html"
+    },
+    {
+      "id": "org.jellyfin.webos",
+      "title": "Jellyfin",
+      "iconUri": "https://raw.githubusercontent.com/jellyfin/jellyfin-webos/master/frontend/assets/icon-130.png",
+      "manifestUrl": "https://github.com/jellyfin/jellyfin-webos/releases/download/v1.0.1/org.jellyfin.webos.manifest.json",
+      "manifest": {
+        "id": "org.jellyfin.webos",
+        "version": "1.0.1",
+        "type": "web",
+        "title": "Jellyfin",
+        "appDescription": "A webOS client to connect to a Jellyfin Server instance and stream media.",
+        "iconUri": "https://github.com/jellyfin/jellyfin-webos/raw/master/org.jellyfin.webos/submission-icon.png",
+        "sourceUrl": "https://github.com/jellyfin/jellyfin-webos",
+        "rootRequired": true,
+        "ipkUrl": "https://github.com/jellyfin/jellyfin-webos/releases/download/v1.0.1/org.jellyfin.webos_1.0.1_all.ipk",
+        "ipkHash": {
+          "sha256": "d7bf2a3407f867e4b8c88905c65e4f9f22372e8d73b4ca4e8c3fa08a560e013a"
+        },
+        "ipkSize": 161474
+      },
+      "pool": "main",
+      "shortDescription": "A webOS client to connect to a Jellyfin Server instance and stream media.",
+      "fullDescriptionUrl": "apps/org.jellyfin.webos-full_description.html"
+    },
+    {
+      "id": "com.limelight.webos",
+      "title": "Moonlight",
+      "iconUri": "https://raw.githubusercontent.com/mariotaku/moonlight-tv/main/deploy/webos/icon_large.png",
+      "manifestUrl": "https://github.com/mariotaku/moonlight-tv/releases/download/v1.4.1/com.limelight.webos.manifest.json",
+      "manifest": {
+        "id": "com.limelight.webos",
+        "version": "1.4.1",
+        "type": "native",
+        "title": "Moonlight",
+        "appDescription": "Open Source NVIDIA GameStream Client",
+        "iconUri": "https://github.com/mariotaku/moonlight-tv/raw/main/deploy/webos/icon.png",
+        "sourceUrl": "https://github.com/mariotaku/moonlight-tv",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/mariotaku/moonlight-tv/releases/download/v1.4.1/com.limelight.webos_1.4.1_arm.ipk",
+        "ipkHash": {
+          "sha256": "5d3489b1b1105c757a07740501a73aa934c9f2f7f15b9304169b3694bdb47b8d"
+        },
+        "ipkSize": 755880
+      },
+      "pool": "main",
+      "shortDescription": "Open Source NVIDIA GameStream Client",
+      "fullDescriptionUrl": "apps/com.limelight.webos-full_description.html"
+    },
+    {
+      "id": "org.webosbrew.piccap",
+      "title": "PicCap - Hyperion Sender App",
+      "iconUri": "https://raw.githubusercontent.com/TBSniller/piccap/main/piccap/logo_big.png",
+      "manifestUrl": "https://github.com/TBSniller/piccap/releases/download/0.2.3/org.webosbrew.piccap.manifest.json",
+      "manifest": {
+        "id": "org.webosbrew.piccap",
+        "version": "0.2.3",
+        "type": "web",
+        "title": "PicCap",
+        "appDescription": "Hyperion Sender App - Ambilight for WebOS",
+        "iconUri": "https://raw.githubusercontent.com/TBSniller/piccap/main/piccap/logo_big.png",
+        "sourceUrl": "https://github.com/TBSniller/piccap",
+        "rootRequired": true,
+        "ipkUrl": "https://github.com/TBSniller/piccap/releases/download/0.2.3/org.webosbrew.piccap_0.2.3_all.ipk",
+        "ipkHash": {
+          "sha256": "f6614e7683e2fe345af6ecc410507a9ecb8de6c69eb7dcd54858d5c5e5340053"
+        },
+        "ipkSize": 1785524
+      },
+      "pool": "main",
+      "shortDescription": "Hyperion Sender App - Ambilight for WebOS",
+      "fullDescriptionUrl": "apps/org.webosbrew.piccap-full_description.html"
+    },
+    {
+      "id": "com.retroarch",
+      "title": "RetroArch",
+      "iconUri": "https://raw.githubusercontent.com/webosbrew/RetroArch/webos-tv-support/webos/icon160.png",
+      "manifestUrl": "https://github.com/webosbrew/RetroArch/releases/download/v1.9.1-webos.2/com.retroarch.manifest.json",
+      "manifest": {
+        "id": "com.retroarch",
+        "version": "1.9.1.2",
+        "type": "native",
+        "title": "RetroArch",
+        "appDescription": "Open Source emulators frontend",
+        "iconUri": "https://raw.githubusercontent.com/Informatic/RetroArch/6a1bdb45cb089f23a39a12b378082f609ea7b027/webos/icon160.png",
+        "sourceUrl": "https://github.com/Informatic/retroarch",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/webosbrew/RetroArch/releases/download/v1.9.1-webos.2/com.retroarch_1.9.1_arm.ipk",
+        "ipkHash": {
+          "sha256": "620b85a1f589d745f20aec329fe5386cc5a39e49a5394ef9491eab57be866bfa"
+        },
+        "ipkSize": 2443386
+      },
+      "pool": "main",
+      "shortDescription": "Open Source emulators frontend",
+      "fullDescriptionUrl": "apps/com.retroarch-full_description.html"
+    },
+    {
+      "id": "org.webosbrew.streamkatze",
+      "title": "streamkatze",
+      "iconUri": "https://raw.githubusercontent.com/informatic/streamkatze/main/assets/icon130.png",
+      "manifestUrl": "https://github.com/informatic/streamkatze/releases/download/v0.1.1/org.webosbrew.streamkatze.manifest.json",
+      "manifest": {
+        "id": "org.webosbrew.streamkatze",
+        "version": "0.1.1",
+        "type": "web",
+        "title": "streamkatze",
+        "appDescription": "Minimal streaming.media.ccc.de player application (EXPERIMENTAL)",
+        "iconUri": "https://raw.githubusercontent.com/informatic/streamkatze/main/assets/icon130.png",
+        "sourceUrl": "https://github.com/informatic/streamkatze",
+        "rootRequired": true,
+        "ipkUrl": "https://github.com/informatic/streamkatze/releases/download/v0.1.1/org.webosbrew.streamkatze_0.1.1_all.ipk",
+        "ipkHash": {
+          "sha256": "9803d953f48173fa378e29077bf1b2b416d377d194181f55c92d1af3e805e139"
+        },
+        "ipkSize": 300004
+      },
+      "pool": "main",
+      "shortDescription": "Minimal streaming.media.ccc.de player application (EXPERIMENTAL)",
+      "fullDescriptionUrl": "apps/org.webosbrew.streamkatze-full_description.html"
+    },
+    {
+      "id": "youtube.leanback.v4",
+      "title": "YouTube AdFree",
+      "iconUri": "https://raw.githubusercontent.com/webosbrew/youtube-webos/main/assets/largeIcon.png",
+      "manifestUrl": "https://github.com/webosbrew/youtube-webos/releases/download/v0.3.1/youtube.leanback.v4.manifest.json",
+      "manifest": {
+        "id": "youtube.leanback.v4",
+        "version": "0.3.1",
+        "type": "web",
+        "title": "YouTube AdFree",
+        "iconUri": "https://raw.githubusercontent.com/webosbrew/youtube-webos/main/assets/largeIcon.png",
+        "sourceUrl": "https://github.com/webosbrew/youtube-webos",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/webosbrew/youtube-webos/releases/download/v0.3.1/youtube.leanback.v4_0.3.1_all.ipk",
+        "ipkHash": {
+          "sha256": "e29110e62259ac03d455ee6b98c2e46e00b8d573d765f396101e9dc7d9495e16"
+        },
+        "ipkSize": 383900
+      },
+      "pool": "main",
+      "shortDescription": null,
+      "fullDescriptionUrl": "apps/youtube.leanback.v4-full_description.html"
+    }
+  ]
+}
