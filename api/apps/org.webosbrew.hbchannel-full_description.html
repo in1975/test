@@ -1,0 +1,27 @@
+<h2>Features</h2>
+<ul>
+<li>
+<p>Independent webOS package repository</p>
+<ul>
+<li>Homebrew discovery, installation &amp; updates</li>
+</ul>
+</li>
+<li>
+<p>(root) Root execution service that can be easily used by webOS homebrew
+  developers without a need of separate privilege escalation handling (<code>luna://org.webosbrew.hbchannel.service/exec</code>)</p>
+</li>
+<li>(root) Disable some telemetry</li>
+<li>(root) Startup user hooks (executable scripts present in <code>/var/lib/webosbrew/init.d</code> are run on bootup)</li>
+<li>(root) Remote access<ul>
+<li>SSH - public key authenticated (with default <code>alpine</code> password until
+  authorized keys are provisioned)</li>
+<li>Telnet - unauthenticated, use sparingly</li>
+</ul>
+</li>
+<li>(root) Failsafe mode<ul>
+<li>In case a device crashes on boot only an emergency shell will be exposed
+  via telnet. In order to disable it fix the original crash cause and remove
+  <code>/var/luna/preferences/webosbrew_failsafe</code> flag file.</li>
+</ul>
+</li>
+</ul>

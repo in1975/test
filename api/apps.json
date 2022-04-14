@@ -1,0 +1,80 @@
+{
+  "paging": {
+    "page": 1,
+    "count": 3,
+    "maxPage": 1,
+    "itemsTotal": 3
+  },
+  "packages": [
+    {
+      "id": "org.webosbrew.hbchannel",
+      "title": "Homebrew Channel",
+      "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
+      "manifestUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.5.0/org.webosbrew.hbchannel.manifest.json",
+      "manifest": {
+        "id": "org.webosbrew.hbchannel",
+        "version": "0.5.0",
+        "type": "web",
+        "title": "Homebrew Channel",
+        "appDescription": "webOS Homebrew installer",
+        "iconUri": "https://raw.githubusercontent.com/webosbrew/webos-homebrew-channel/main/assets/icon160.png",
+        "sourceUrl": "https://github.com/webosbrew/webos-homebrew-channel",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/webosbrew/webos-homebrew-channel/releases/download/v0.5.0/org.webosbrew.hbchannel_0.5.0_all.ipk",
+        "ipkHash": {
+          "sha256": "daec5b88684c66387a7822e5492a4ef5075b64ad0a5619854d90f95e048e2715"
+        },
+        "ipkSize": 1436054
+      },
+      "pool": "main",
+      "shortDescription": "webOS Homebrew installer",
+      "fullDescriptionUrl": "apps/org.webosbrew.hbchannel-full_description.html"
+    },
+    {
+      "id": "webosapp.tools",
+      "title": "Webosapp tools",
+      "iconUri": "https://www.miraclegroup.com/wp-content/uploads/2018/01/Tailoring-ICO-Platform-130x130.png",
+      "manifestUrl": "https://github.com/in1975/in1975.github.io/releases/download/test/webosapp.tools.manifest.json",
+      "manifest": {
+        "id": "webosapp.tools",
+        "version": "0.0.1",
+        "type": "web",
+        "title": "webosapp tools",
+        "iconUri": "https://www.miraclegroup.com/wp-content/uploads/2018/01/Tailoring-ICO-Platform-130x130.png",
+        "sourceUrl": "https://github.com/in1975/in1975.github.io",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/in1975/in1975.github.io/releases/download/test/webosapp.tools_0.0.1_all.ipk",
+        "ipkHash": {
+          "sha256": "8d496ad4e8cb1b3fca895ef0ed61a65908211f11aa4813efb4fad508a5b67475"
+        },
+        "ipkSize": 15524
+      },
+      "pool": "main",
+      "shortDescription": null,
+      "fullDescriptionUrl": "apps/webosapp.tools-full_description.html"
+    },
+    {
+      "id": "youtube.leanback.v4",
+      "title": "YouTube AdFree",
+      "iconUri": "https://raw.githubusercontent.com/webosbrew/youtube-webos/main/assets/largeIcon.png",
+      "manifestUrl": "https://github.com/webosbrew/youtube-webos/releases/download/v0.3.1/youtube.leanback.v4.manifest.json",
+      "manifest": {
+        "id": "youtube.leanback.v4",
+        "version": "0.3.1",
+        "type": "web",
+        "title": "YouTube AdFree",
+        "iconUri": "https://raw.githubusercontent.com/webosbrew/youtube-webos/main/assets/largeIcon.png",
+        "sourceUrl": "https://github.com/webosbrew/youtube-webos",
+        "rootRequired": false,
+        "ipkUrl": "https://github.com/webosbrew/youtube-webos/releases/download/v0.3.1/youtube.leanback.v4_0.3.1_all.ipk",
+        "ipkHash": {
+          "sha256": "e29110e62259ac03d455ee6b98c2e46e00b8d573d765f396101e9dc7d9495e16"
+        },
+        "ipkSize": 383900
+      },
+      "pool": "main",
+      "shortDescription": null,
+      "fullDescriptionUrl": "apps/youtube.leanback.v4-full_description.html"
+    }
+  ]
+}
